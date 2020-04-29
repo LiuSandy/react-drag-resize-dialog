@@ -15,7 +15,7 @@ import DragResizeDialog from 'react-drag-resize-dialog';
 visible: boolean 是否显示对话框 默认false
 onCancel: function 点击关闭回调
 ```
-更过参数请参考 [`react-rnd`](https://github.com/bokuweb/react-rnd)
+更多参数请参考 [`react-rnd`](https://github.com/bokuweb/react-rnd)
 
 ## Demo
 ```
