@@ -23,7 +23,7 @@ import React, {useState} from 'react';
 import {render} from 'react-demo';
 import DragResizeDialog from 'react-drag-resize-dialog';
 
-const Index = props => {
+const App = props => {
     const [visible,setVisible] = useState(false)
 
     return (
