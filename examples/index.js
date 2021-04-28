@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import DragResizeDialog from '../lib/index'
-import '../lib/min.min.css'
+import DragResizeDialog from 'react-drag-resize-dialog'
+import 'react-drag-resize-dialog/lib/min.min.css'
 
 const Index = () => {
 
