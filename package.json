@@ -1,6 +1,6 @@
 {
   "name": "react-drag-resize-dialog",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "基于 react-rnd 的一个可以移动可以改变大小的对话框组件",
   "main": "lib/index.js",
   "files": [
