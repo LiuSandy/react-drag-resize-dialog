@@ -11,7 +11,6 @@ const DialogDom = props => {
     const { onCancel } = props
 
     const initialPosition = setDefaultPositions(defaultPositions)
-    console.log(">>>",styles);
     
     return (
         <Rnd

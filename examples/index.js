@@ -1,17 +1,18 @@
 import React, { useState } from 'react'
-import DragResizeDialog from '../src/index'
+import DragResizeDialog from '../lib/index'
+import '../lib/min.min.css'
 
 const Index = () => {
 
   const [visible, setVisible] = useState(false)
   return (
-    <React.Fragment>
+    <>
       <DragResizeDialog
         visible={visible}
         onCancel={() => setVisible(false)}
       />
       <button onClick={() => setVisible(true)}>点击</button>
-    </React.Fragment>
+    </>
   )
 }
 
